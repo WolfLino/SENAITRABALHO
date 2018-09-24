@@ -86,10 +86,13 @@
     <Content Include="View\vwLogin.aspx" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Content Include="View\vwMenu.aspx" />
 =======
     <Content Include="View\vwOrdemServico.aspx" />
 >>>>>>> 041a197c50e38a756c3a8e25b69f746dfb84519a
+=======
+>>>>>>> parent of 041a197... Coisas
 =======
 >>>>>>> parent of 041a197... Coisas
     <Content Include="Web.config" />
@@ -147,6 +150,7 @@
     </Compile>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="View\vwMenu.aspx.cs">
       <DependentUpon>vwMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -162,6 +166,8 @@
       <DependentUpon>vwOrdemServico.aspx</DependentUpon>
 >>>>>>> 041a197c50e38a756c3a8e25b69f746dfb84519a
     </Compile>
+=======
+>>>>>>> parent of 041a197... Coisas
 =======
 >>>>>>> parent of 041a197... Coisas
   </ItemGroup>
