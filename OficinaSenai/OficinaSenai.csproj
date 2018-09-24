@@ -82,7 +82,11 @@
     <Content Include="View\vwEndereco.aspx" />
     <Content Include="View\vwListarCliente.aspx" />
     <Content Include="View\vwLogin.aspx" />
+<<<<<<< HEAD
     <Content Include="View\vwMenu.aspx" />
+=======
+    <Content Include="View\vwOrdemServico.aspx" />
+>>>>>>> 041a197c50e38a756c3a8e25b69f746dfb84519a
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -136,12 +140,21 @@
     <Compile Include="View\vwLogin.aspx.designer.cs">
       <DependentUpon>vwLogin.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="View\vwMenu.aspx.cs">
       <DependentUpon>vwMenu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="View\vwMenu.aspx.designer.cs">
       <DependentUpon>vwMenu.aspx</DependentUpon>
+=======
+    <Compile Include="View\vwOrdemServico.aspx.cs">
+      <DependentUpon>vwOrdemServico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\vwOrdemServico.aspx.designer.cs">
+      <DependentUpon>vwOrdemServico.aspx</DependentUpon>
+>>>>>>> 041a197c50e38a756c3a8e25b69f746dfb84519a
     </Compile>
   </ItemGroup>
   <ItemGroup>
