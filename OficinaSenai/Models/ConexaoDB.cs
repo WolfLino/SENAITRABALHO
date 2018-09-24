@@ -14,7 +14,7 @@ namespace ExemploBD.Models
         public ConexaoDB()
         {
             string con = "Server=localhost;Database=oficina;" +
-                "Uid=root;Pwd=ulisses";
+                "Uid=root;Pwd=venus;SslMode=none";
             Conexao = new MySqlConnection(con);
             Comando = Conexao.CreateCommand();
             Conexao.Open();
