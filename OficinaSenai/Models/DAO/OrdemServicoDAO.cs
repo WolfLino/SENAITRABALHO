@@ -48,27 +48,5 @@ namespace ExemploBD.Models.DAO
                 con.Conexao.Close();
             }
         }
-
-        public void Alterar(OrdemServico oS)
-        {
-            try
-            {
-                string sql = "UPDATE ordem_serv SET status = @status WHERE idordem_serv = @id";
-
-                con.Comando.CommandText = sql;
-                con.Comando.Parameters.AddWithValue("@status", oS.Status);
-                con.Comando.Parameters.AddWithValue("@id", oS.Id);
-
-                int returno = con.Comando.ExecuteNonQuery();
-            }
-            catch (Exception)
-            {
-                return;
-            }
-            finally
-            {
-                con.Conexao.Close();
-            }
-        }
     }
 }
