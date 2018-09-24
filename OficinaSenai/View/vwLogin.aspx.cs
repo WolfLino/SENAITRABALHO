@@ -25,10 +25,12 @@ namespace ExemploBD.View
                 Senha = txtSenha.Text
             };
 
-            
-            if(dao.Logar(cliente) != null)
+            cliente = dao.Logar(cliente);
+
+            if (cliente != null)
             {
-                Response.Redirect("~/View/vwCliente.aspx");
+                Session["cliente"] = cliente;
+                Response.Redirect("~/View/vwMenu.aspx");
             }else
             {
                 lblResultado.Text = "O login ou a senha estão incorretos";

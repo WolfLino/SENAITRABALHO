@@ -124,7 +124,7 @@ namespace ExemploBD
 
         protected void btnVoltar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/View/vwListarCliente.aspx");
+            Response.Redirect("~/View/vwMenu.aspx");
         }
     }
 }
